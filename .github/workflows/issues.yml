@@ -3,6 +3,7 @@ on:
   issues:
     types:
       - opened
+  workflow_call:
 jobs:
   track_issue:
     runs-on: ubuntu-latest
