@@ -1,10 +1,10 @@
 name: Add issues to project
 on:
-  pull_request:
+  issues:
     types:
-      - ready_for_review
+      - opened
 jobs:
-  track_pr:
+  track_issue:
     runs-on: ubuntu-latest
     steps:
       - name: Get project data
