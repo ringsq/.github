@@ -9,7 +9,7 @@ jobs:
     steps:
       - name: Get project data
         env:
-          GITHUB_TOKEN: ${{secrets.YOUR_TOKEN}}
+          GITHUB_TOKEN: ${{secrets.R2_GITHUB_TOKEN}}
           ORGANIZATION: ringsq
           PROJECT_NUMBER: 2
         run: |
