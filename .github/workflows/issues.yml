@@ -4,6 +4,10 @@ on:
     types:
       - opened
   workflow_call:
+    secrets:
+      R2_GITHUB_TOKEN:
+        required: true
+
 jobs:
   track_issue:
     runs-on: ubuntu-latest
