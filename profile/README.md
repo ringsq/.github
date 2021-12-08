@@ -1,4 +1,4 @@
-## Ring Squared
+![RingSquared](https://user-images.githubusercontent.com/10136172/145226210-7af9bef6-ef65-403f-973e-c9908dca9c9e.png)
 
 <!--
 
