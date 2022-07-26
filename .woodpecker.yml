@@ -1,0 +1,5 @@
+pipeline:
+  echo:
+    image: alpine
+    commands:
+      - echo "template"
